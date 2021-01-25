@@ -1,0 +1,44 @@
+*{
+    border:solid;
+}
+
+.header{
+    color: rgb(153, 45, 45);
+}
+
+.grid{
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+h2{
+    text-align: center;
+}
+body{
+     background-color: #ece259e3;
+}
+.footer{
+    padding:30px;
+
+}
+a{
+   color:rgba(255, 220, 106, 0.753);
+
+}
+a:visited{
+    color: violet
+}
+
+.item:hover p{
+    opacity:1;
+
+}
+.item:hover img{
+opacity:0.33;
+}
+.item p{
+    opacity:0;
+}
+.item{
+    color: rgba(255, 131, 109, 0.801);
+}
